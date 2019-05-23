@@ -7,7 +7,7 @@ web:
   restart: always
   hostname: my.localhost
   volumes:
-    - $PWD/public_html:/var/www/html
+    -/root/deploy/laravel:/var/www/html
   environment:
     VIRTUAL_HOST: my.localhost
     PHP_VERSION: 7.0
