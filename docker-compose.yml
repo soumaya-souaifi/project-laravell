@@ -1,13 +1,13 @@
 version: '2'
 services:
 
-web:
+ web:
   container_name: web
   image: saklyayoub/d-lamp
   restart: always
   hostname: my.localhost
   volumes:
-    -/root/deploy/laravel:/var/www/html
+    -$PWD:/var/www/html
   environment:
     VIRTUAL_HOST: my.localhost
     PHP_VERSION: 7.0
