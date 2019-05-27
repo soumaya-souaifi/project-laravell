@@ -8,6 +8,6 @@ stage("clone repository") {
     }
     stage("phpunit") {
         // Run PHPUnit
-        sh './vendor/bin/phpunit tests/Unit/test.php'
+        sh './vendor/bin/phpunit tests/Unit/ExampleTest.php'
     }
 }
