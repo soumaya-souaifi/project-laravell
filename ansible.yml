@@ -2,7 +2,7 @@
   tasks:
       - name: Create file
         file:
-            path: /home/rahma/hello
+            path: /home/controller/hello2
             state: touch
         become: yes
         become_user: root
