@@ -24,6 +24,6 @@ services:
     SSMTP_USE_TLS: 'NO'
     SSMTP_USE_STARTTLS: 'NO'
   ports:
-    - 80:80
+    - 81:80
     - 588:587
   network_mode: bridge
